@@ -32,13 +32,13 @@ export const Content = styled(motion.div)`
   border-radius: 1.5rem 0 0 0;
 
   @media ${breakpoint.tablet} {
-    width: 40%;
+    width: 60%;
     padding: 6rem 4rem 4rem 4rem;
     gap: 2rem;
   }
 
   @media ${breakpoint.desktop} {
-    width: 30%;
+    width: 40%;
     padding: 6rem 4rem 4rem 4rem;
     gap: 2rem;
   }

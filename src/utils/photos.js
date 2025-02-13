@@ -25,8 +25,7 @@ import organika from "../assets/images-large/organika-1.jpg";
 import phc01 from "../assets/images-large/phc-1.jpg";
 import phc02 from "../assets/images-large/phc-2.jpg";
 import phc03 from "../assets/images-large/phc-3.jpg";
-import post01 from "../assets/images-large/post-1.jpg";
-import post02 from "../assets/images-large/post-2.jpg";
+import post from "../assets/images-large/post.jpg";
 import rainbow01 from "../assets/images-large/rainbow-1.jpg";
 import rainbow02 from "../assets/images-large/rainbow-2.jpg";
 import red01 from "../assets/images-large/red-1.jpg";
@@ -52,9 +51,21 @@ import wymyj01 from "../assets/images-large/wymyj-1.jpg";
 import wymyj02 from "../assets/images-large/wymyj-2.jpg";
 import wymyj03 from "../assets/images-large/wymyj-3.jpg";
 import wymyj04 from "../assets/images-large/wymyj-4.jpg";
-import wymyj05 from "../assets/images-large/wymyj-5.jpg";
 import xbody from "../assets/images-large/xbody-1.jpg";
 import zimbabwe from "../assets/images-large/zimbabwe.jpg";
+import glass from "../assets/images-large/glasshouse.jpg";
+import beliny from "../assets/images-large/beliny.jpg";
+import kraksky from "../assets/images-large/kraksky.jpg";
+import lsse from "../assets/images-large/lsse.jpg";
+import wega from "../assets/images-large/wega.jpg";
+import horn from "../assets/images-large/horn.jpg";
+import rerak01 from "../assets/images-large/rerak-1.jpg";
+import rerak02 from "../assets/images-large/rerak-2.jpg";
+import kpid from "../assets/images-large/kpid.jpg";
+import jantar from "../assets/images-large/jantar.jpg";
+import valeo from "../assets/images-large/valeo.jpg";
+import ucztasmakow from "../assets/images-large/ucztasmakow.jpg";
+import smteam from "../assets/images-large/smteam.jpg";
 
 //thumbs
 import sixnine_thumb from "../assets/images-thumb/69.jpg";
@@ -83,8 +94,7 @@ import organika_thumb from "../assets/images-thumb/organika-1.jpg";
 import phc01_thumb from "../assets/images-thumb/phc-1.jpg";
 import phc02_thumb from "../assets/images-thumb/phc-2.jpg";
 import phc03_thumb from "../assets/images-thumb/phc-3.jpg";
-import post01_thumb from "../assets/images-thumb/post-1.jpg";
-import post02_thumb from "../assets/images-thumb/post-2.jpg";
+import post_thumb from "../assets/images-thumb/post.jpg";
 import rainbow01_thumb from "../assets/images-thumb/rainbow-1.jpg";
 import rainbow02_thumb from "../assets/images-thumb/rainbow-2.jpg";
 import red01_thumb from "../assets/images-thumb/red-1.jpg";
@@ -110,15 +120,39 @@ import wymyj01_thumb from "../assets/images-thumb/wymyj-1.jpg";
 import wymyj02_thumb from "../assets/images-thumb/wymyj-2.jpg";
 import wymyj03_thumb from "../assets/images-thumb/wymyj-3.jpg";
 import wymyj04_thumb from "../assets/images-thumb/wymyj-4.jpg";
-import wymyj05_thumb from "../assets/images-thumb/wymyj-5.jpg";
 import xbody_thumb from "../assets/images-thumb/xbody-1.jpg";
 import zimbabwe_thumb from "../assets/images-thumb/zimbabwe.jpg";
+import glass_thumb from "../assets/images-thumb/glasshouse.jpg";
+import beliny_thumb from "../assets/images-thumb/beliny.jpg";
+import kraksky_thumb from "../assets/images-thumb/kraksky.jpg";
+import lsse_thumb from "../assets/images-thumb/lsse.jpg";
+import wega_thumb from "../assets/images-thumb/wega.jpg";
+import horn_thumb from "../assets/images-thumb/horn.jpg";
+import rerak01_thumb from "../assets/images-thumb/rerak-1.jpg";
+import rerak02_thumb from "../assets/images-thumb/rerak-2.jpg";
+import kpid_thumb from "../assets/images-thumb/kpid.jpg";
+import jantar_thumb from "../assets/images-thumb/jantar.jpg";
+import valeo_thumb from "../assets/images-thumb/valeo.jpg";
+import ucztasmakow_thumb from "../assets/images-thumb/ucztasmakow.jpg";
+import smteam_thumb from "../assets/images-thumb/smteam.jpg";
 
 export const photos = [
   {
-    largeURL: sixnine,
-    thumbnailURL: sixnine_thumb,
-    width: 1414,
+    largeURL: horn,
+    thumbnailURL: horn_thumb,
+    width: 1617,
+    height: 1000,
+  },
+  {
+    largeURL: rerak01,
+    thumbnailURL: rerak01_thumb,
+    width: 1400,
+    height: 1000,
+  },
+  {
+    largeURL: rerak02,
+    thumbnailURL: rerak02_thumb,
+    width: 1470,
     height: 1000,
   },
   {
@@ -132,6 +166,24 @@ export const photos = [
     thumbnailURL: amd02_thumb,
     width: 1778,
     height: 1000,
+  },
+  {
+    largeURL: glass,
+    thumbnailURL: glass_thumb,
+    width: 1400,
+    height: 1000,
+  },
+  {
+    largeURL: beliny,
+    thumbnailURL: beliny_thumb,
+    width: 1500,
+    height: 1000,
+  },
+  {
+    largeURL: kraksky,
+    thumbnailURL: kraksky_thumb,
+    width: 1000,
+    height: 1333,
   },
   {
     largeURL: ap01,
@@ -149,6 +201,12 @@ export const photos = [
     largeURL: ap03,
     thumbnailURL: ap03_thumb,
     width: 1121,
+    height: 1000,
+  },
+  {
+    largeURL: wega,
+    thumbnailURL: wega_thumb,
+    width: 1964,
     height: 1000,
   },
   {
@@ -170,32 +228,14 @@ export const photos = [
     height: 1000,
   },
   {
-    largeURL: itan01,
-    thumbnailURL: itan01_thumb,
-    width: 667,
+    largeURL: kpid,
+    thumbnailURL: kpid_thumb,
+    width: 1400,
     height: 1000,
   },
   {
     largeURL: itan02,
     thumbnailURL: itan02_thumb,
-    width: 667,
-    height: 1000,
-  },
-  {
-    largeURL: itan03,
-    thumbnailURL: itan03_thumb,
-    width: 667,
-    height: 1000,
-  },
-  {
-    largeURL: itan04,
-    thumbnailURL: itan04_thumb,
-    width: 667,
-    height: 1000,
-  },
-  {
-    largeURL: itan05,
-    thumbnailURL: itan05_thumb,
     width: 667,
     height: 1000,
   },
@@ -218,6 +258,18 @@ export const photos = [
     height: 1000,
   },
   {
+    largeURL: sixnine,
+    thumbnailURL: sixnine_thumb,
+    width: 1414,
+    height: 1000,
+  },
+  {
+    largeURL: lsse,
+    thumbnailURL: lsse_thumb,
+    width: 1593,
+    height: 1000,
+  },
+  {
     largeURL: make01,
     thumbnailURL: make01_thumb,
     width: 1000,
@@ -233,6 +285,12 @@ export const photos = [
     largeURL: mamo,
     thumbnailURL: mamo_thumb,
     width: 667,
+    height: 1000,
+  },
+  {
+    largeURL: smteam,
+    thumbnailURL: smteam_thumb,
+    width: 2094,
     height: 1000,
   },
   {
@@ -272,15 +330,27 @@ export const photos = [
     height: 1000,
   },
   {
-    largeURL: post01,
-    thumbnailURL: post01_thumb,
-    width: 2031,
+    largeURL: itan04,
+    thumbnailURL: itan04_thumb,
+    width: 667,
     height: 1000,
   },
   {
-    largeURL: post02,
-    thumbnailURL: post02_thumb,
-    width: 2031,
+    largeURL: rol01,
+    thumbnailURL: rol01_thumb,
+    width: 2000,
+    height: 1000,
+  },
+  {
+    largeURL: rol02,
+    thumbnailURL: rol02_thumb,
+    width: 2262,
+    height: 1000,
+  },
+  {
+    largeURL: post,
+    thumbnailURL: post_thumb,
+    width: 1596,
     height: 1000,
   },
   {
@@ -307,18 +377,7 @@ export const photos = [
     width: 1667,
     height: 1000,
   },
-  {
-    largeURL: rol01,
-    thumbnailURL: rol01_thumb,
-    width: 2000,
-    height: 1000,
-  },
-  {
-    largeURL: rol02,
-    thumbnailURL: rol02_thumb,
-    width: 2262,
-    height: 1000,
-  },
+
   {
     largeURL: rol03,
     thumbnailURL: rol03_thumb,
@@ -344,6 +403,12 @@ export const photos = [
     height: 1000,
   },
   {
+    largeURL: itan01,
+    thumbnailURL: itan01_thumb,
+    width: 667,
+    height: 1000,
+  },
+  {
     largeURL: solar01,
     thumbnailURL: solar01_thumb,
     width: 1121,
@@ -356,6 +421,12 @@ export const photos = [
     height: 1000,
   },
   {
+    largeURL: jantar,
+    thumbnailURL: jantar_thumb,
+    width: 1617,
+    height: 1000,
+  },
+  {
     largeURL: ss01,
     thumbnailURL: ss01_thumb,
     width: 2000,
@@ -365,6 +436,12 @@ export const photos = [
     largeURL: ss02,
     thumbnailURL: ss02_thumb,
     width: 2000,
+    height: 1000,
+  },
+  {
+    largeURL: itan05,
+    thumbnailURL: itan05_thumb,
+    width: 667,
     height: 1000,
   },
   {
@@ -430,13 +507,13 @@ export const photos = [
   {
     largeURL: wymyj04,
     thumbnailURL: wymyj04_thumb,
-    width: 1121,
+    width: 1880,
     height: 1000,
   },
   {
-    largeURL: wymyj05,
-    thumbnailURL: wymyj05_thumb,
-    width: 1121,
+    largeURL: itan03,
+    thumbnailURL: itan03_thumb,
+    width: 667,
     height: 1000,
   },
   {
@@ -449,6 +526,18 @@ export const photos = [
     largeURL: zimbabwe,
     thumbnailURL: zimbabwe_thumb,
     width: 986,
+    height: 1000,
+  },
+  {
+    largeURL: valeo,
+    thumbnailURL: valeo_thumb,
+    width: 2314,
+    height: 1000,
+  },
+  {
+    largeURL: ucztasmakow,
+    thumbnailURL: ucztasmakow_thumb,
+    width: 1400,
     height: 1000,
   },
 ];
