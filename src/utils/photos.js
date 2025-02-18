@@ -66,6 +66,9 @@ import jantar from "../assets/images-large/jantar.jpg";
 import valeo from "../assets/images-large/valeo.jpg";
 import ucztasmakow from "../assets/images-large/ucztasmakow.jpg";
 import smteam from "../assets/images-large/smteam.jpg";
+import aiselecta from "../assets/images-large/aiselecta.jpg";
+import topalbums01 from "../assets/images-large/topalbums-1.jpg";
+import topalbums02 from "../assets/images-large/topalbums-2.jpg";
 
 //thumbs
 import sixnine_thumb from "../assets/images-thumb/69.jpg";
@@ -135,6 +138,9 @@ import jantar_thumb from "../assets/images-thumb/jantar.jpg";
 import valeo_thumb from "../assets/images-thumb/valeo.jpg";
 import ucztasmakow_thumb from "../assets/images-thumb/ucztasmakow.jpg";
 import smteam_thumb from "../assets/images-thumb/smteam.jpg";
+import aiselecta_thumb from "../assets/images-thumb/aiselecta.jpg";
+import topalbums01_thumb from "../assets/images-thumb/topalbums-1.jpg";
+import topalbums02_thumb from "../assets/images-thumb/topalbums-2.jpg";
 
 export const photos = [
   {
@@ -153,6 +159,12 @@ export const photos = [
     largeURL: rerak02,
     thumbnailURL: rerak02_thumb,
     width: 1470,
+    height: 1000,
+  },
+  {
+    largeURL: aiselecta,
+    thumbnailURL: aiselecta_thumb,
+    width: 1400,
     height: 1000,
   },
   {
@@ -177,6 +189,18 @@ export const photos = [
     largeURL: beliny,
     thumbnailURL: beliny_thumb,
     width: 1500,
+    height: 1000,
+  },
+  {
+    largeURL: topalbums01,
+    thumbnailURL: topalbums01_thumb,
+    width: 1400,
+    height: 1000,
+  },
+  {
+    largeURL: topalbums02,
+    thumbnailURL: topalbums02_thumb,
+    width: 1998,
     height: 1000,
   },
   {
