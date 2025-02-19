@@ -120,6 +120,7 @@ export const Title = styled(motion.div)`
     font-size: 1rem;
     font-weight: 300;
     display: inline-flex;
+    align-items: center;
     gap: 0.5rem;
 
     @media ${breakpoint.tablet} {
@@ -131,6 +132,7 @@ export const Title = styled(motion.div)`
     }
 
     span {
+      margin-top: 0.25rem;
       font-size: 1.25rem;
 
       @media ${breakpoint.tablet} {

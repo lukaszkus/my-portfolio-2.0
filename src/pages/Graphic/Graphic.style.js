@@ -22,4 +22,9 @@ export const Content = styled.div`
   @media ${breakpoint.desktopXL} {
     max-width: var(--maxWidthXL);
   }
+
+  p {
+    padding: 1rem 0;
+    font-weight: 200;
+  }
 `;
