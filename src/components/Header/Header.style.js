@@ -152,7 +152,7 @@ export const Title = styled(motion.div)`
     transition: color 0.3s ease-in-out;
     color: var(--clr-light);
 
-    :hover {
+    &:hover {
       color: var(--clr-accentPrimary);
     }
 
@@ -169,7 +169,7 @@ export const Title = styled(motion.div)`
     text-decoration: none;
     color: var(--clr-light);
 
-    :hover {
+    &:hover {
       color: var(--clr-middle);
     }
 
