@@ -230,7 +230,7 @@ export const photos = [
   {
     largeURL: wega,
     thumbnailURL: wega_thumb,
-    width: 1964,
+    width: 1824,
     height: 1000,
   },
   {
