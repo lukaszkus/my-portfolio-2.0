@@ -14,6 +14,7 @@ import itan03 from "../assets/images-large/itan-legendy-3.jpg";
 import itan04 from "../assets/images-large/itan-wykluczeni-4.jpg";
 import itan05 from "../assets/images-large/itan-wesele-5.jpg";
 import itan06 from "../assets/images-large/itan-6.jpg";
+import itan07 from "../assets/images-large/itan-bus.jpg";
 import jtendo from "../assets/images-large/jtendo-1.jpg";
 import ksw from "../assets/images-large/ksw.jpg";
 import make01 from "../assets/images-large/make-1.jpg";
@@ -91,6 +92,7 @@ import itan03_thumb from "../assets/images-thumb/itan-legendy-3.jpg";
 import itan04_thumb from "../assets/images-thumb/itan-wykluczeni-4.jpg";
 import itan05_thumb from "../assets/images-thumb/itan-wesele-5.jpg";
 import itan06_thumb from "../assets/images-thumb/itan-6.jpg";
+import itan07_thumb from "../assets/images-thumb/itan-bus.jpg";
 import jtendo_thumb from "../assets/images-thumb/jtendo-1.jpg";
 import ksw_thumb from "../assets/images-thumb/ksw.jpg";
 import make01_thumb from "../assets/images-thumb/make-1.jpg";
@@ -295,6 +297,12 @@ export const photos = [
     largeURL: itan06,
     thumbnailURL: itan06_thumb,
     width: 1500,
+    height: 1000,
+  },
+  {
+    largeURL: itan07,
+    thumbnailURL: itan07_thumb,
+    width: 1896,
     height: 1000,
   },
   {
