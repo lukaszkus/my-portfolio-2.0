@@ -69,6 +69,11 @@ import smteam from "../assets/images-large/smteam.jpg";
 import aiselecta from "../assets/images-large/aiselecta.jpg";
 import topalbums01 from "../assets/images-large/topalbums-1.jpg";
 import topalbums02 from "../assets/images-large/topalbums-2.jpg";
+import iw01 from "../assets/images-large/iw-1.jpg";
+import iw02 from "../assets/images-large/iw-2.jpg";
+import iw03 from "../assets/images-large/iw-3.jpg";
+import inf from "../assets/images-large/inf.jpg";
+import tulimama from "../assets/images-large/tulimama.jpg";
 
 //thumbs
 import sixnine_thumb from "../assets/images-thumb/69.jpg";
@@ -141,6 +146,11 @@ import smteam_thumb from "../assets/images-thumb/smteam.jpg";
 import aiselecta_thumb from "../assets/images-thumb/aiselecta.jpg";
 import topalbums01_thumb from "../assets/images-thumb/topalbums-1.jpg";
 import topalbums02_thumb from "../assets/images-thumb/topalbums-2.jpg";
+import iw01_thumb from "../assets/images-thumb/iw-1.jpg";
+import iw02_thumb from "../assets/images-thumb/iw-2.jpg";
+import iw03_thumb from "../assets/images-thumb/iw-3.jpg";
+import inf_thumb from "../assets/images-thumb/inf.jpg";
+import tulimama_thumb from "../assets/images-thumb/tulimama.jpg";
 
 export const photos = [
   {
@@ -252,6 +262,24 @@ export const photos = [
     height: 1000,
   },
   {
+    largeURL: iw01,
+    thumbnailURL: iw01_thumb,
+    width: 1400,
+    height: 1000,
+  },
+  {
+    largeURL: iw02,
+    thumbnailURL: iw02_thumb,
+    width: 1724,
+    height: 1000,
+  },
+  {
+    largeURL: iw03,
+    thumbnailURL: iw03_thumb,
+    width: 1724,
+    height: 1000,
+  },
+  {
     largeURL: kpid,
     thumbnailURL: kpid_thumb,
     width: 1400,
@@ -315,6 +343,12 @@ export const photos = [
     largeURL: smteam,
     thumbnailURL: smteam_thumb,
     width: 2094,
+    height: 1000,
+  },
+  {
+    largeURL: inf,
+    thumbnailURL: inf_thumb,
+    width: 2099,
     height: 1000,
   },
   {
@@ -448,6 +482,12 @@ export const photos = [
     largeURL: jantar,
     thumbnailURL: jantar_thumb,
     width: 1617,
+    height: 1000,
+  },
+  {
+    largeURL: tulimama,
+    thumbnailURL: tulimama_thumb,
+    width: 1882,
     height: 1000,
   },
   {
