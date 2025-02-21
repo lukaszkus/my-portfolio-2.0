@@ -75,6 +75,8 @@ import iw02 from "../assets/images-large/iw-2.jpg";
 import iw03 from "../assets/images-large/iw-3.jpg";
 import inf from "../assets/images-large/inf.jpg";
 import tulimama from "../assets/images-large/tulimama.jpg";
+import haiku from "../assets/images-large/haiku.jpg";
+import ggcars from "../assets/images-large/ggcars.jpg";
 
 //thumbs
 import sixnine_thumb from "../assets/images-thumb/69.jpg";
@@ -153,6 +155,8 @@ import iw02_thumb from "../assets/images-thumb/iw-2.jpg";
 import iw03_thumb from "../assets/images-thumb/iw-3.jpg";
 import inf_thumb from "../assets/images-thumb/inf.jpg";
 import tulimama_thumb from "../assets/images-thumb/tulimama.jpg";
+import haiku_thumb from "../assets/images-thumb/haiku.jpg";
+import ggcars_thumb from "../assets/images-thumb/ggcars.jpg";
 
 export const photos = [
   {
@@ -180,6 +184,12 @@ export const photos = [
     height: 1000,
   },
   {
+    largeURL: ggcars,
+    thumbnailURL: ggcars_thumb,
+    width: 1799,
+    height: 1000,
+  },
+  {
     largeURL: amd01,
     thumbnailURL: amd01_thumb,
     width: 1347,
@@ -201,6 +211,12 @@ export const photos = [
     largeURL: beliny,
     thumbnailURL: beliny_thumb,
     width: 1500,
+    height: 1000,
+  },
+  {
+    largeURL: haiku,
+    thumbnailURL: haiku_thumb,
+    width: 1492,
     height: 1000,
   },
   {
