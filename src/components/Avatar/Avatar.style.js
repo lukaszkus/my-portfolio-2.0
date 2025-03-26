@@ -34,9 +34,18 @@ export const Content = styled.div`
   mask-position: center;
   mask-image: url(${IMAGES.me_mask});
   opacity: 0.5;
+
+  /* .myimg {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  } */
 `;
 
-export const Image = styled(motion.img)`
+export const Image = styled.img`
   top: 0;
   position: absolute;
   width: 100%;
@@ -45,7 +54,7 @@ export const Image = styled(motion.img)`
   object-position: center;
 `;
 
-export const Emoji = styled(motion.div)`
+export const Emoji = styled.div`
   position: absolute;
   top: 15%;
   right: -10%;
