@@ -34,15 +34,6 @@ export const Content = styled.div`
   mask-position: center;
   mask-image: url(${IMAGES.me_mask});
   opacity: 0.5;
-
-  /* .myimg {
-    top: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  } */
 `;
 
 export const Image = styled.img`
