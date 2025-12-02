@@ -21,24 +21,32 @@ const Avatar = () => {
   ];
 
   useGSAP(() => {
-    let tl = gsap.timeline({ repeat: -1 });
+    let tl1 = gsap.timeline({ delay: 0.5 });
+    let tl2 = gsap.timeline({ repeat: -1, delay: 0.7 });
     let imgs = gsap.utils.toArray(".myimg");
     let emojis = gsap.utils.toArray(".emoji");
 
+    tl1.fromTo(
+      "#container",
+      { opacity: 0, scale: 0.5, duration: 0.25 },
+      { opacity: 0.5, scale: 1, duration: 0.25 }
+    );
+
     for (let i = 0; i <= 2; i++) {
-      tl.fromTo(
-        imgs[i],
-        {
-          opacity: 0,
-          xPercent: -100,
-        },
-        {
-          opacity: 1,
-          xPercent: 0,
-          duration: 1.2,
-          ease: "elastic.out(0.9,0.23)",
-        }
-      )
+      tl2
+        .fromTo(
+          imgs[i],
+          {
+            opacity: 0,
+            xPercent: -100,
+          },
+          {
+            opacity: 1,
+            xPercent: 0,
+            duration: 1.2,
+            ease: "elastic.out(0.9,0.23)",
+          }
+        )
         .fromTo(
           emojis[i],
           {
@@ -76,7 +84,7 @@ const Avatar = () => {
 
   return (
     <Wrapper>
-      <Content>
+      <Content id="container">
         <Image
           src={images[0]}
           alt={imgAlts[0]}
