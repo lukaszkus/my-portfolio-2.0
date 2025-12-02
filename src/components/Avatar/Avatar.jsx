@@ -41,10 +41,10 @@ const Avatar = () => {
             xPercent: -100,
           },
           {
-            opacity: 1,
+            opacity: 0.75,
             xPercent: 0,
             duration: 1.2,
-            ease: "elastic.out(0.9,0.23)",
+            ease: "elastic.out(0.8,0.29)",
           }
         )
         .fromTo(
